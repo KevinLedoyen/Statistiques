@@ -1,0 +1,4 @@
+#Fichier .htaccess : /
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^(.+)$ http://localhost/lab/ [R=301,L]
